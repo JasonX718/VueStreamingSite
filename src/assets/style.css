@@ -1,0 +1,54 @@
+
+  .el-header, .el-footer {
+    background-color: #0c0c0c;
+    color: rgb(23, 23, 23);
+    text-align: center;
+    line-height: 60px;
+    box-shadow:  0px 20px 20px black;
+  }
+  .el-menu-item{
+    color: #787878;
+  }
+  el_menu_item.is-active{
+    color: rgb(64, 158, 255);
+  }
+
+
+  .el-menu {
+    border-right-width: 0px;
+    border-right-style: solid;
+    height: 100%;
+  }
+
+  .el-aside {
+    background-color:rgb(23, 23, 23);
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+    height: 100%;
+  }
+
+  .el-main {
+    background-color:rgb(14, 13, 13);
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+  }
+
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+  
+
